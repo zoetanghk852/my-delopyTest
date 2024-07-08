@@ -21,7 +21,7 @@ jobs:
       - name: Install dependencies
         run: npm ci
       - name: Build slides
-        run: yarn reveal
+        run: npm reveal
       - name: Build website
         run: npm run build
 
